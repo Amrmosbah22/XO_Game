@@ -1,0 +1,37 @@
+.container{
+    height: 100vh;
+    display: flex;
+}
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: #fff;
+    margin: auto;
+}
+.title{
+    background-color: gray;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+span{
+    color: #000;
+}
+.boxS{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    margin: 2px;
+    font-size: 55px;
+    transition: .2s;
+}
+.square:hover{
+    cursor: pointer;
+    background-color: rgb(93, 117, 109);
+}
